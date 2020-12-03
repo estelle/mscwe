@@ -21,6 +21,9 @@ body {
   color: #eee;
   font-family: arial;
 }
+blockquote {
+  font-size: 2rem;
+}
 .slide {
   background-size: 1px 1px;
 }
@@ -69,61 +72,14 @@ body {
     </section>
 </div>
 
-
-<div class="slide object">
-  <header></header>
-  <object data="https://heydonworks.com/"></object>
-  <a href="https://heydonworks.com/" target="play" class="objectlink">↪</a>
-  </div>
-
-
-  <div class="slide object">
-    <header></header>
-    <object data="https://noscript.it/#https://heydonworks.com/"></object>
-    <a href="https://noscript.it/#https://heydonworks.com/" target="play" class="objectlink">↪</a>
-    </div>
-
-<div class="slide large solid">
-  <section>
-        <p>
-          If you don’t consider best practices, including:
-        </p>
-        <ul>
-          <li>performance</li>
-          <li>accessibility</li>
-          <li>internationalization</li>
-          <li>privacy</li>
-          <li>security</li>
-          <li>UX</li> 
-        </ul> 
-        <p>from day 1, you have debt you’ll end up always band-aiding.
-        </p>
-  </section>
+<!-- desk -->
+<div class="slide bigbg" style="background-image: url(bg/desk.jpg)">
+  <header><h1>Who are your users?</h1></header>
+  <!-- 
+ -->
+<p class="alt">A developer's desk, with very expensive computer equipment</p>
 </div>
 
-<div class="slide large solid">
-  <section>
-      <blockquote>
-        <p>
-        All sites, no matter the size, need to hire front end engineers from the get go. 
-        If not, you create tech debt that costs more to fix that it would to create. 
-      </p>
-    </blockquote>
-  </section>
-</div>
-
-
-
-
-<div class="slide large solid">
-    <section>
-      <blockquote>
-         <p>
-           companies who think they can’t afford a FEE think they definitely can’t afford a complete refactor. 
-        </p>
-      </blockquote>
-    </section>
-  </div>
 
 
 <div class="slide bigbg" style="background-image: url(https://fortunedotcom.files.wordpress.com/2014/09/pay26_b1.jpg), url(bg/paypal.jpg);">
@@ -137,9 +93,20 @@ body {
 <div class="slide bigbg" style="background-image: url(bg/roadster2008.jpg);">
   <header><h1>2008 Tesla Roadster</h1></header>
   <a href="https://www.flickr.com/photos/djandywdotcom/42028812510" class="photocredit">credit: @djandywdotcom</a>
-  <!-- In 2003, Tesla set up shop in San Carlos, CA, with the goal of creating the lambrogini or ferrari of electric vehicles. pledges it will be in the same class as Ferraris, Lamborghinis and Porsches — at least on metrics such as performance, 0-to-60-mph acceleration times, cornering and so on.Roadster could accelerate from 0 to 60 miles (96 km) per hour in less than 4 seconds and could reach a top speed of 125 miles (200 km) per hour. The Roadster was the first highway legal serial production all-electric car to use lithium-ion battery cells and the first production all-electric car to travel more than 320 kilometres (200 mi) per charge. 
+  <!-- In 2003, Tesla set up shop in San Carlos, CA, with the goal
+     of creating the lambrogini or ferrari of electric vehicles. 
+     pledges it will be in the same class as Ferraris, Lamborghinis 
+     and Porsches — at least on metrics such as performance, 0-to-60-mph 
+     acceleration times, cornering and so on.Roadster could 
+     accelerate from 0 to 60 miles (96 km) per hour in less than 4 
+     seconds and could reach a top speed of 125 miles (200 km) per 
+     hour. The Roadster was the first highway legal serial 
+     production all-electric car to use lithium-ion battery cells 
+     and the first production all-electric car to travel more than 
+     320 kilometres (200 mi) per charge. 
 
-    Their target audience was wealthy people who could afford a lambroghini. That's a narrow segment of the population.-->
+    Their target audience was wealthy people who could afford a 
+    lambroghini. That's a narrow segment of the population.-->
   <!-- 2,450 Roadsters were sold between 2008 and 2012. base price 125,000 - 30M -->
 </div>
 
@@ -162,12 +129,87 @@ The Model 3 was the top-selling plug-in electric car in the U.S. in 2018 with an
 
 </div>
 
-<!-- tv 
-<div class="slide bigbg" style="background-image: url(bg/tv.jpg)">
-  <header><h1>How are your users accessing the web?</h1></header>
-  <a href="https://www.cnet.com/au/news/vodafone-tv-cheaper-alternative-to-telstra-tv/" class="photocredit">Credit: Vodafone</a>
-<p class="alt">Two kids in front of a tv, not watching tv, but, rather, playing with other devices.</p>
+
+
+<div class="slide object">
+  <header></header>
+  <object data="https://heydonworks.com/"></object>
+  <a href="https://heydonworks.com/" target="play" class="objectlink">↪</a>
+  </div>
+
+
+  <div class="slide object">
+    <header></header>
+    <object data="https://noscript.it/#https://heydonworks.com/"></object>
+    <a href="https://noscript.it/#https://heydonworks.com/" target="play" class="objectlink">↪</a>
+    </div>
+
+<div class="slide large solid">
+  <section>
+        <p>
+          If your original site goals don't include best practices, including:
+        </p>
+        <ul>
+          <li>performance</li>
+          <li>accessibility</li>
+          <li>internationalization</li>
+          <li>privacy</li>
+          <li>security</li>
+          <li>UX</li> 
+        </ul> 
+        <p>You're building debt you will always be band-aiding.
+        </p>
+  </section>
 </div>
+
+<div class="slide large solid">
+  <section>
+      <blockquote>
+        <p>
+        All sites, no matter the size, need to hire front end engineers from the get go. 
+        If not, you create tech debt that costs more to fix that it would to create. 
+      </p>
+    </blockquote>
+  </section>
+</div>
+
+
+
+
+<div class="slide large solid">
+    <section>
+      <blockquote>
+         <p>
+           If you can’t afford a FEE today, <br>
+           you can't afford a complete refactor tomorrow. 
+        </p>
+      </blockquote>
+    </section>
+  </div>
+
+
+<div class="slide intro">
+  <section class="content" style="display: flex; flex-flow: column; justify-content: space-between; height: calc(100vh - 50px);">
+    <div>
+      <h1>Estelle Weyl</h1>
+      <h2><a href="http://www.standardista.com">www.Standardista.com</a><br/><a href="https://www.PerfMattersConf.com">www.PerfMattersConf.com</a><br>
+      </h2><h2><a href="http://www.twitter.com/estellevw">@estellevw</a> &middot;<a href="http://www.twitter.com/standardista">@standardista</a></h2>
+    </div>
+    <div style="margin: 0 -70px;">
+      <div class="floatright books">
+        <img src="https://akamaicovers.oreilly.com/images/0636920021711/cat.gif" alt="Mobile HTML5" />
+        <img src="images/fem.png" alt="Front End Masters">
+        <img src="https://akamaicovers.oreilly.com/images/9780987467485/cat.gif" alt="HTML5 and CSS3 for the Real World">
+        <img src="https://akamaicovers.oreilly.com/images/0636920041658/cat.gif" alt="Animations and Transitions with CSS"/>
+        <img src="https://akamaicovers.oreilly.com/images/0636920025955/cat.gif" alt="Web Performance Daybook"/>
+        <img src="https://covers.oreillystatic.com/images/0636920012726/cat.gif" alt="CSS: The Definitive Guide">
+        <img src="https://covers.oreillystatic.com/images/0636920066682/cat.gif" alt="Flexbox in CSS"/>
+      </div>
+    </div>
+  </section>
+</div>
+
+
 
 <!-- desk -->
 <div class="slide bigbg" style="background-image: url(bg/desk.jpg)">
@@ -196,13 +238,13 @@ The Model 3 was the top-selling plug-in electric car in the U.S. in 2018 with an
  <p class="alt">Three lower income Indian women in saris partaking in the saathi program, learning how to use mobile phones as computers</p>
 </div>
 
-<!-- africa -->
+<!-- africa 
 <div class="slide bigbg" style="background-image: url(bg/africa1.jpg)">
   <header><h1>Who are your users?</h1></header>
   <a href="https://www.tori.ng/news/110458/see-what-the-first-madeinafrica-smartphone-looks-l.html" class="photocredit">Credit: tori.ng</a>
-  <!-- 
- -->
+
 </div>
+-->
 
  <!-- africa -->
 <div class="slide bigbg" style="background-image: url(bg/africa3.jpg)">
@@ -225,16 +267,15 @@ The Model 3 was the top-selling plug-in electric car in the U.S. in 2018 with an
  -->
 </div>
 
-<!-- japanese man -->
+<!-- japanese man 
 <div class="slide bigbg" style="background-image: url(bg/asian.jpg)">
   <header><h1>Who are your users?</h1></header>
 
   <a href="" class="photocredit"></a>
   <p class="alt">A Japanese man working on a tablet at an outdoor cafe</p>
-  <!-- 
- -->
-</div>
 
+</div>
+ -->
 
 <!-- japanese -->
 <div class="slide bigbg" style="background-image: url(bg/japanese.jpg)">
@@ -268,15 +309,14 @@ The Model 3 was the top-selling plug-in electric car in the U.S. in 2018 with an
 </div>
 
 
-<!-- cerebral palsy -->
+<!-- cerebral palsy 
 <div class="slide bigbg" style="background-image: url(bg/cp.jpg)">
   <header><h1>Who are your users?</h1></header>
 
   <a href="" class="photocredit"></a>
   <p class="alt">A girl with Cerebral Palsy using a computer</p>
-  <!-- 
- -->
-</div>
+
+</div> -->
 <!-- cerebral palsy -->
 <div class="slide bigbg" style="background-image: url(bg/cp2.jpg)">
   <header><h1>Who are your users?</h1></header>
@@ -362,6 +402,17 @@ The Model 3 was the top-selling plug-in electric car in the U.S. in 2018 with an
 
 </div>
 
+<!-- zoom -->
+<div class="slide bigbg" style="background-image: url(bg/zoom.png)">
+  <header><h1>Who are your users?</h1></header>
+
+  <a href="https://www.cdh.cam.ac.uk/news/blog-many-masks-dr-tulp-0" class="photocredit">credit: Cambridge Digital Humanities</a>
+  <p class="alt">Zoom room with all participants in masks.  </p>
+  <!-- 
+ -->
+
+</div>
+
 <!-- Graph -->
 <div class="slide bigbg" style="background-image: url(bg/lg3.jpg)">
   <header><h1>LG 3: Running Marshmallow </h1></header>
@@ -377,33 +428,6 @@ Storage 16 GB -->
 
 
 
-<div class="slide intro" style="background-image: url(images/FF.png); background-size: cover">
-<section class="content" style="display: flex; flex-flow: column; justify-content: space-between; height: calc(100vh - 50px);">
-<div>
-
-
-
-
-
-
-    <h1>Estelle Weyl</h1>
-    <h2><a href="http://www.standardista.com">www.Standardista.com</a><br/><a href="https://www.PerfMattersConf.com">www.PerfMattersConf.com</a><br>
-    </h2><h2><a href="http://www.twitter.com/estellevw">@estellevw</a> &middot;<a href="http://www.twitter.com/standardista">@standardista</a></h2>
- </div>
- <div style="margin: 0 -70px;">
-    <div class="floatright books">
-      <img src="https://akamaicovers.oreilly.com/images/0636920021711/cat.gif" alt="Mobile HTML5" />
-      <img src="images/fem.png" alt="Front End Masters">
-      <img src="https://akamaicovers.oreilly.com/images/9780987467485/cat.gif" alt="HTML5 and CSS3 for the Real World">
-      <img src="https://akamaicovers.oreilly.com/images/0636920041658/cat.gif" alt="Animations and Transitions with CSS"/>
-      <img src="https://akamaicovers.oreilly.com/images/0636920025955/cat.gif" alt="Web Performance Daybook"/>
-      <img src="https://covers.oreillystatic.com/images/0636920012726/cat.gif" alt="CSS: The Definitive Guide">
-      <img src="https://covers.oreillystatic.com/images/0636920066682/cat.gif" alt="Flexbox in CSS"/>
-    </div>
-</div>
-
-</section>
-</div>
 
 
 
@@ -466,7 +490,7 @@ background-position: bottom;">
     margin-left: 50%;
     width: 50%;
     text-align: center;
-    transform: translateY(-70vh) rotate(20deg);
+    transform: translateY(-50vh) rotate(20deg);
     font-size: 3rem;
     text-decoration: underline;
     text-decoration-style: solid;
@@ -742,8 +766,8 @@ background-position: bottom;">
 
 
 
-<div class="slide tweet"  style="background-color: hsl(310, 68%, 21%);">
-<blockquote class="twitter-tweet" data-lang="en"><q lang="en" dir="ltr">Just because no one uses your mobile site, doesn&#39;t mean you don&#39;t need to improve it. Maybe no one uses it because the experience sucks.</q>
+<div class="slide"  style="background-color: hsl(310, 68%, 21%);">
+<blockquote ><q>Just because no one uses your mobile site, doesn&#39;t mean you don&#39;t need to improve it. Maybe no one uses it because the experience sucks.</q>
     <cite>&mdash; Me    </cite>
 </blockquote>
 </div>
@@ -1634,7 +1658,16 @@ from 2007/2011 to 2017 (in Mbps), by quarter <span style="opacity: 0.3">4x</span
 </div>
 
 
+<div class="slide object">
+  <header><h1>CSS in JS?</h1></header>
+  <object data="https://specifishity.com"></object>
+  <a href="https://specifishity.com" target="play" class="objectlink">↪</a>
+  </div>
+  
 
+<div class="slide">
+  <blockquote>Let's <a href="https://estelle.github.io/CSS/selectors/specificity.html#slide4">learn Specificity</a></blockquote>
+</div>
 
 <div class="slide" style="background: 50% 0% / 60% 80% no-repeat url(images/scale.svg) hsl(200, 68%, 21%);"><h1 class="temphidden" style="position: absolute; top: 75%; width: 100%; text-align: center">Performance Budget</h1>
 
@@ -1895,7 +1928,11 @@ from 2007/2011 to 2017 (in Mbps), by quarter <span style="opacity: 0.3">4x</span
 <p class="alt">Abused woman with abuser whispering in her ear</p>
 </div>
 
-
+<div class="slide bigbg" style="background-image: url(bg/abuse2.jpg)">
+  <header><h1>How can your product be exploited?</h1></header>
+  <p class="alt">Abused woman with abuser whispering in her ear</p>
+  </div>
+  
 <!-- doctor -->
 <div class="slide bigbg" style="background-image: url(bg/ruraldoc.jpg)">
   <header><h1>User Experience Design</h1></header>
@@ -1912,16 +1949,12 @@ from 2007/2011 to 2017 (in Mbps), by quarter <span style="opacity: 0.3">4x</span
   <header><h1>User Experience Design</h1></header>
   <a href="https://anekdot.kozaku.in.ua/" class="photocredit">Credit:?</a>
   <section class="content temphidden">
-<div style="background-color:#00000066">&ldquo;A user interface is like a joke. If you have to explain it, it’s not that good.&rdquo;
+<div style="background-color:#00000066">A user interface is like a joke. If you have to explain it, it’s not that good.
 
   </section>
 </div>
 
 
-<div class="slide bigbg" style="background-image: url(bg/abuse2.jpg)">
-<header><h1>How can your product be exploited?</h1></header>
-<p class="alt">Abused woman with abuser whispering in her ear</p>
-</div>
 
 
 
@@ -1963,7 +1996,7 @@ from 2007/2011 to 2017 (in Mbps), by quarter <span style="opacity: 0.3">4x</span
 
 
 
-
+<!--
 <div class="slide intro" style="background:  hsl(180, 68%, 21%);">
   <header>   
     <h1>Architecture</h1>
@@ -1971,10 +2004,10 @@ from 2007/2011 to 2017 (in Mbps), by quarter <span style="opacity: 0.3">4x</span
   <section class="content"><div style="font-size: 30vh">⌛️</div>
   </section>
 </div>
+-->
 
 
-
-<!-- file size for visa js -->
+<!-- file size for visa js
 <div class="slide invert">
   <header>
     <h1  style="text-align: center">Architecture</h1>
@@ -1983,7 +2016,7 @@ from 2007/2011 to 2017 (in Mbps), by quarter <span style="opacity: 0.3">4x</span
     <img src="images/v7.png" style="min-height: 80vh;" alt="http headers for a javascript file that is 2.264M">
   </section>
 </div>
-
+ -->
 
 
 
@@ -1995,7 +2028,7 @@ from 2007/2011 to 2017 (in Mbps), by quarter <span style="opacity: 0.3">4x</span
 
 
 
-
+<!--
 <div class="slide intro" style="background:  hsl(180, 68%, 21%);">
   <header>   
     <h1>Refactoring</h1>
@@ -2008,7 +2041,7 @@ from 2007/2011 to 2017 (in Mbps), by quarter <span style="opacity: 0.3">4x</span
   </section>
 </div>
 
-
+-->
 
 
 
@@ -2145,7 +2178,7 @@ pregnant_woman
 </section>
 </div>
 
-
+<!--
 <div class="slide large solid">
     <header><h1>Front End Architecture</h1></header>
     <section class="TWEET">
@@ -2157,7 +2190,7 @@ pregnant_woman
       </blockquote>
     </section>
   </div>
-
+-->
 
 
 
@@ -2202,7 +2235,7 @@ pregnant_woman
 
 
 
-<div class="slide normal" style="background-image: url(images/FF.png); background-size: cover">
+<div class="slide normal">
 <section class="content" style="display: flex; flex-flow: column; justify-content: space-between; height: calc(100vh - 50px);">
 <div>
     <h1>Estelle Weyl</h1>

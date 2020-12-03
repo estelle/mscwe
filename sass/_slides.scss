@@ -21,7 +21,6 @@ body,
 }
 .slide {
   background-image: linear-gradient(to bottom, #ffffff00, #ffffff99);
-  background-image: conic-gradient(from 0deg at -5% 100%, $bg, lighten($bg, 20%) 180deg);
 }
 
 .slide.intro {
